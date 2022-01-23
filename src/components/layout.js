@@ -19,7 +19,7 @@ const Layout = ({ pageTitle, children }) => {
       }
     }
   `)
-  console.log(data);
+  //console.log("Layout \n", data);
 
   return (
     <div className={container}>

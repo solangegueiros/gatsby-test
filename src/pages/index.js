@@ -6,7 +6,7 @@ const IndexPage = () => {
   return (
     <Layout pageTitle="Home Page">
       <p>I'm making this by following the <a 
-         href="https://www.gatsbyjs.com/docs/tutorial/" target="_blank">
+         href="https://www.gatsbyjs.com/docs/tutorial/" target="_blank" rel="noreferrer">
         Gatsby Tutorial
         </a>
         .
