@@ -20,6 +20,7 @@ module.exports = {
               path: `${__dirname}/content/event`,
             }
         },        
-        "gatsby-plugin-mdx",        
+        "gatsby-plugin-mdx",                
+        "gatsby-transformer-sharp",
     ]
 }
