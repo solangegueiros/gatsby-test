@@ -1,6 +1,6 @@
 .container {
   margin: auto;
-  max-width: 500px;
+  max-width: 800px;
   font-family: sans-serif;
 }
 
@@ -20,8 +20,10 @@
 }
 
 .site-title {
-  font-size: 3rem;
-  color: gray;
+  color:darkmagenta; 
   font-weight: 700;
+  /*
+  font-size: 3rem;
   margin: 3rem 0;
+  */
 }
