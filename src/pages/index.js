@@ -12,8 +12,8 @@ const IndexPage = () => {
         .
       </p>
       <StaticImage
-        alt="Tigrinho na neve no Olimpic Park em Salt Lake City."
-        src="../images/SaltLakeCity-OlimpicPark-DSC00284.jpg"
+        alt="Tigrinho olhando o mapa em Salt Lake City, EUA"
+        src="../images/SaltLakeCity-Downtown-DSC09635.jpg"
       />
       <br/>
       <br/>
