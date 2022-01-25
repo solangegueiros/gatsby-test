@@ -8,6 +8,7 @@ module.exports = {
     plugins: [
         "gatsby-plugin-image",
         "gatsby-plugin-sharp",
+        `gatsby-remark-images`,
         {
             resolve: `gatsby-source-filesystem`,
             options: {
@@ -44,6 +45,15 @@ module.exports = {
             defaultLayouts: {
               default: require.resolve(`./src/components/layout.js`),
             },
+            gatsbyRemarkPlugins: [
+              {
+                resolve: `gatsby-remark-images`,
+                options: {
+                  maxWidth: 1024,
+                  sizeByPixelDensity: true,
+                },
+              },
+            ],            
           },
         },
         "gatsby-transformer-sharp",
